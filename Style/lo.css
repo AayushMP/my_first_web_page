@@ -1,0 +1,118 @@
+body {
+  margin: 0px;
+  background-image: url(Bread.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.nav-bar {
+  background: linear-gradient(to right, #16222a, #3a6073);
+  opacity: 0.8;
+  color: #eee;
+  font-family: fantasy, sans-serif;
+  font-size: 30px;
+  width: 100%;
+  height: 80px;
+  position: absolute;
+}
+h1 {
+  margin: 0px;
+  padding-left: 50px;
+  display: inline-block;
+}
+.sign-up {
+  float: right;
+  font-size: 30px;
+  margin-right: 20px;
+}
+.sign-up a {
+  color: #eee;
+}
+.main-text {
+  color: #eee;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main-text-box {
+  width: 500px;
+  text-align: center;
+  font-family: cursive, sans-serif;
+}
+h2 {
+  font-size: 50px;
+}
+p {
+  font-size: 20px;
+}
+main {
+  border-top: 2px solid #000;
+  height: 35.3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #654321, #964b00);
+  opacity: 0.9;
+}
+.login {
+  border: 2px solid #000;
+  width: 308px;
+  height: 170px;
+  padding: 5px;
+  background: linear-gradient(to right, #16222a, #3a6073);
+}
+input {
+  border: 1px solid #000;
+  border-radius: 3px;
+  width: 290px;
+  height: 40px;
+  margin: 3px;
+  padding: 5px;
+  font-size: 17px;
+}
+h6 {
+  margin: 0px;
+  float: right;
+  font-size: 14px;
+  color: #0ee;
+}
+h6 a {
+  text-decoration: none;
+  color: #eee;
+}
+#btn {
+  border: 2px solid #000;
+  border-radius: 3px;
+  width: 302px;
+  height: 25px;
+  margin: 3px;
+  background: #000;
+  color: #eee;
+}
+#btn.hidden {
+  display: none;
+}
+#btun {
+  display: none;
+}
+#btun.show {
+  border: 2px solid #000;
+  border-radius: 3px;
+  width: 302px;
+  height: 25px;
+  margin: 3px;
+  background: #000;
+  color: #eee;
+  display: block;
+}
+button:active {
+  opacity: 0.5;
+}
+footer {
+  border: 2px solid #000;
+  background: linear-gradient(to right, #16222a, #3a6073);
+  opacity: 0.8;
+  padding: 3px 8px 3px 3px;
+  text-align: right;
+}

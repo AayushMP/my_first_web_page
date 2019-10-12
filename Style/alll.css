@@ -1,0 +1,94 @@
+body {
+  margin: 0px;
+  background-image: url(Black-Tea.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.nav-bar {
+  background: linear-gradient(to right, #16222a, #3a6073);
+  opacity: 0.8;
+  color: #eee;
+  font-family: fantasy, sans-serif;
+  font-size: 30px;
+  width: 100%;
+  height: 80px;
+}
+h1 {
+  margin: 0px;
+  padding-left: 50px;
+  display: inline-block;
+}
+.home-btn {
+  float: right;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-right: 20px;
+  color: #eee;
+  text-decoration: none;
+}
+main {
+  background: linear-gradient(to right, #654321, #964b00);
+  opacity: 0.9;
+  width: 98%;
+  height: 78.8vh;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.imp {
+  width: 80%;
+  margin: auto;
+}
+#imag {
+  display: inline-block;
+  width: 29%;
+  height: 280px;
+  padding: 10px;
+}
+img {
+  width: 350px;
+  height: 270px;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #000;
+  border-radius: 3px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+#det {
+  float: right;
+  width: 50%;
+  height: 280px;
+  margin-top: 5px;
+}
+#que {
+  display: inline-block;
+  width: 40%;
+  font-size: 21px;
+}
+#an {
+  float: right;
+  width: 59%;
+  text-align: left;
+  font-size: 24.7px;
+}
+.imd {
+  margin-top: 20px;
+  padding: 0px 140px;
+}
+#par {
+  background: linear-gradient(to right, #16222a, #3a6073);
+  font-size: 25px;
+  margin: 0px;
+  padding: 5px 10px;
+  line-height: 30px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+footer {
+  border: 2px solid #000;
+  background: linear-gradient(to right, #16222a, #3a6073);
+  opacity: 0.8;
+  padding: 3px 8px 3px 3px;
+  text-align: right;
+}
